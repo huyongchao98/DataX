@@ -99,7 +99,7 @@
         <module>gdbwriter</module>
         <module>cassandrawriter</module>
         <module>clickhousewriter</module>
-        <module>oscarwriter</module>
+        <!-- <module>oscarwriter</module> -->
         <module>oceanbasev10writer</module>
         <!-- common support module -->
         <module>plugin-rdbms-util</module>
@@ -188,8 +188,8 @@
     <repositories>
         <repository>
             <id>central</id>
-            <name>Nexus aliyun</name>
-            <url>https://maven.aliyun.com/repository/central</url>
+            <name>Nexus maven2</name>
+            <url>http://central.maven.org/maven2/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>

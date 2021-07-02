@@ -4,6 +4,8 @@
 .LSOverride
 Icon
 ._*
+.project
+.classpath
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100

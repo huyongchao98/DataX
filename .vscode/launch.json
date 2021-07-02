@@ -1,0 +1,42 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Engine",
+      "request": "launch",
+      "mainClass": "com.alibaba.datax.core.Engine",
+      "projectName": "datax-core"
+    },
+    {
+      "type": "java",
+      "name": "Launch HookInvoker",
+      "request": "launch",
+      "mainClass": "com.alibaba.datax.core.container.util.HookInvoker",
+      "projectName": "datax-core"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "com.dai.test",
+      "projectName": "kuduwriter"
+    },
+    {
+      "type": "java",
+      "name": "Launch MongoUtil",
+      "request": "launch",
+      "mainClass": "com.alibaba.datax.plugin.writer.mongodbwriter.util.MongoUtil",
+      "projectName": "mongodbwriter"
+    }
+  ]
+}
